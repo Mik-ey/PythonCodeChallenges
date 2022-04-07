@@ -1,2 +1,2 @@
 # PythonCodeChallenges
-My solution to challenges from a LinkedInLearning course 
+My solution to challenges from a LinkedInLearning course. 
