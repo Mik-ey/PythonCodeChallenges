@@ -9,4 +9,7 @@ def html2markdown(html):
     # Remove spaces
     markdown_text = re.sub(r"\s+", " ", markdown_text)
 
+    # Convert paragraphs
+    markdown_text = re.sub(r"(</p><p>|<p>|</p>)+", "\n\n", markdown_text).strip()
+
     return markdown_text
