@@ -6,4 +6,7 @@ def html2markdown(html):
     # Convert italics
     markdown_text = re.sub(r"<[/]?em>", "*", html)
 
+    # Remove spaces
+    markdown_text = re.sub(r"\s+", " ", markdown_text)
+
     return markdown_text
