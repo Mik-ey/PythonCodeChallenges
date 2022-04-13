@@ -20,8 +20,6 @@ medal = namedtuple(
     ],
 )
 
-medals = []  # Complete this - medals is a list of medal namedtuples
-
 
 def get_medals(**kwargs):
     """Return a list of medal namedtuples"""
