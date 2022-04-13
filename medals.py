@@ -1,7 +1,8 @@
 from collections import namedtuple
+import pandas as pd
 
-with open("olympics.txt", "rt", encoding="utf-8") as file:
-    olympics = file.read()
+
+olympics = pd.read_csv("olympics.txt", sep=";")
 
 medal = namedtuple(
     "medal",
